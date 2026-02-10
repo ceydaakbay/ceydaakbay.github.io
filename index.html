@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>You're Invited - Ceyda's Kına Gecesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Optional: elegant serif + clean sans -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Envelope Gate -->
+  <div id="gate" class="gate" aria-label="Invitation envelope screen">
+    <button id="envelopeBtn" class="envelope" aria-label="Open invitation">
+      <span class="envelope__shadow" aria-hidden="true"></span>
+      <span class="envelope__body" aria-hidden="true"></span>
+      <span class="envelope__flap" aria-hidden="true"></span>
+      <span class="envelope__seal" aria-hidden="true">C&amp;A</span>
+      <span class="envelope__hint">Tap to open</span>
+    </button>
+  </div>
+
+  <!-- Main Site -->
+  <main id="site" class="site is-hidden" aria-hidden="true">
+
+    <!-- Decorative background motifs (subtle) -->
+    <div class="motif motif--top" aria-hidden="true"></div>
+    <div class="motif motif--bottom" aria-hidden="true"></div>
+
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <h1 class="title">You're Invited<br><span class="title__accent">Ceyda's Kına Gecesi</span></h1>
+        <p class="subtitle">
+          Tuesday, April 7th, 2026<br>
+          <strong>6:00 PM – 9:00 PM</strong><br>
+          3651 Green Level W Rd, Suite 101<br>
+  Apex, NC 27523
+        </p>
+       
+        <div class="buttonRow" role="navigation" aria-label="Section navigation">
+  <a class="btn btn--ghost" href="#faq">FAQ</a>
+  <a class="btn btn--ghost" href="#rsvp">RSVP</a>
+  <a
+    class="btn btn--ghost"
+    href="https://www.google.com/maps/place/Curate+Studio/@35.7778783,-78.9046252,20.82z/data=!4m15!1m8!3m7!1s0x89acececdd5bffff:0xcb5ef6860f60630b!2s3651+Green+Level+W+Rd+Suite+101,+Apex,+NC+27523,+USA!3b1!8m2!3d35.7780213!4d-78.9047996!16s%2Fg%2F11y1xtz09n!3m5!1s0x89acedc445dc930b:0x595d6beb0f96c2f2!8m2!3d35.7779112!4d-78.9046644!16s%2Fg%2F11svvkw7rg?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+    target="_blank"
+    rel="noopener"
+  >
+    View Location
+  </a>
+</div>
+
+
+        <p class="micro">
+          
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq">
+      <div class="container">
+        <h2 class="sectionTitle">FAQ</h2>
+        <p class="sectionLead">A few gentle notes to make the night easy for everyone.</p>
+
+        <div class="faqList">
+          <details class="faqItem">
+            <summary>Are kids allowed?</summary>
+            <p>No, unless otherwise specified. Thank you for understanding — we’d love for everyone to relax and enjoy the evening.</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>What gift can I bring?</summary>
+            <p>Cash is most helpful. I'll be moving countries and the wedding will be in the UK, so it makes things much easier for us.</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>Will there be men?</summary>
+            <p>This is an all-girls celebration, except for a short traditional dance when the groom will join briefly.</p>
+          </details>
+
+          <!-- Helpful additions -->
+          <details class="faqItem">
+            <summary>What should I wear?</summary>
+            <p>Dress up if you’d like — think elegant, comfortable, and photo-friendly. If you have something in olive, gold, or warm neutrals, it’ll match the vibe beautifully.</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>What time should I arrive?</summary>
+            <p>Please arrive at <strong>6:00 PM</strong> so you don’t miss the welcome and the start of the evening.</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>Will there be food and drinks?</summary>
+            <p>Yes — we’ll have Turkish treats and refreshments. (If you have allergies, please note them in the RSVP.)</p>
+          </details>
+
+          <details class="faqItem">
+            <summary>Can I take photos and videos?</summary>
+            <p>Please do not take pictures of any person unless they have consented. Hijabs will be off, so please be mindful of others!</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section id="rsvp" class="section rsvp">
+      <div class="container">
+        <h2 class="sectionTitle">RSVP</h2>
+        <p class="sectionLead">Please respond by March 12, 2026.</p>
+
+        <form id="rsvpForm" class="formCard">
+          <div class="fieldRow">
+            <label>
+              Full name
+              <input name="name" type="text" autocomplete="name" required />
+            </label>
+
+            <label>
+              Phone or email
+              <input name="contact" type="text" autocomplete="email" required />
+            </label>
+          </div>
+
+          <div class="fieldRow">
+            <label>
+              Will you attend?
+              <select name="attendance" required>
+                <option value="" selected disabled>Select one</option>
+                <option value="Yes">Yes, I’ll be there</option>
+                <option value="No">Sorry, I can’t make it</option>
+              </select>
+            </label>
+
+            <label>
+              Number of guests (including you)
+              <input name="guests" type="number" min="1" max="10" value="1" required />
+            </label>
+          </div>
+
+          <label>
+            Allergies / notes (optional)
+            <textarea name="notes" rows="3" placeholder="Allergies, dietary needs, anything we should know."></textarea>
+          </label>
+
+          <div class="formActions">
+            <button class="btn btn--primary" type="submit">Send RSVP</button>
+            <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with love - Ceyda</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
