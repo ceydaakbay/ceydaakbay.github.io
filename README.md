@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <!-- Optional: elegant serif + clean sans -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -75,8 +75,8 @@
           </details>
 
           <details class="faqItem">
-            <summary>What gift can I bring?</summary>
-            <p>Cash is most helpful. I'll be moving countries and the wedding will be in the UK, so it makes things much easier for us.</p>
+            <summary>Can I bring a gift?</summary>
+            <p>If you'd like to bring a gift, please bring cash as I'll be moving before the wedding to England, In'Sha'Allah. </p>
           </details>
 
           <details class="faqItem">
@@ -87,7 +87,7 @@
           <!-- Helpful additions -->
           <details class="faqItem">
             <summary>What should I wear?</summary>
-            <p>Dress up if you’d like — think elegant, comfortable, and photo-friendly. If you have something in olive, gold, or warm neutrals, it’ll match the vibe beautifully.</p>
+            <p>Dress up if you’d like — think elegant, comfortable, and photo-friendly. If you have something in olive, gold, or warm neutrals, it’ll match the vibe beautifully. (Please bring cover up items for when the groom joins).</p>
           </details>
 
           <details class="faqItem">
@@ -102,7 +102,7 @@
 
           <details class="faqItem">
             <summary>Can I take photos and videos?</summary>
-            <p>Please do not take pictures of any person unless they have consented. Hijabs will be off, so please be mindful of others!</p>
+            <p>Please do not take pictures of any person unless they have consented. Some girls will have their hijabs off, so please be mindful of others!</p>
           </details>
         </div>
       </div>
@@ -253,6 +253,7 @@ form.addEventListener("submit", async (e) => {
 
   --serif: "Playfair Display", serif;
   --sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --script: "Great Vibes", cursive;
 
   --radius: 18px;
   --shadow: 0 18px 45px rgba(0,0,0,0.12);
@@ -426,11 +427,17 @@ body{
   margin: 0;
   font-family: var(--serif);
   font-weight: 600;
-  line-height: 1.05;
+  line-height: 1.2;
   font-size: clamp(40px, 5vw, 64px);
 }
 .title__accent{
   color: var(--burgundy);
+  font-family: var(--script);
+  font-weight: 400;
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  margin-top: 8px;
 }
 
 .subtitle{
