@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>You're Invited - Ceyda's Kına Gecesi</title>
+  <title>You're Invited - Ceyda’nın Kına Gecesi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <!-- Optional: elegant serif + clean sans -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -34,7 +34,7 @@
     <!-- HERO -->
     <section id="home" class="section hero">
       <div class="container">
-        <h1 class="title">You're Invited<br><span class="title__accent">Ceyda's Kına Gecesi</span></h1>
+        <h1 class="title">You're Invited<br><span class="title__accent">Ceyda’nın Kına Gecesi</span></h1>
         <p class="subtitle">
           Tuesday, April 7th, 2026<br>
           <strong>6:00 PM – 9:00 PM</strong><br>
@@ -65,44 +65,52 @@
     <!-- FAQ -->
     <section id="faq" class="section faq">
       <div class="container">
-        <h2 class="sectionTitle">FAQ</h2>
-        <p class="sectionLead">A few gentle notes to make the night easy for everyone.</p>
+        <h2 class="sectionTitle">FAQ - Sıkça Sorulan Sorular</h2>
+        <p class="sectionLead">A few gentle notes to make the night easy for everyone.<br>
+          Geceyi herkes için keyifli hale getirmek adına birkaç küçük not.</p>
 
         <div class="faqList">
           <details class="faqItem">
-            <summary>Are kids allowed?</summary>
-            <p>No, unless otherwise specified. Thank you for understanding — we’d love for everyone to relax and enjoy the evening.</p>
+            <summary>Are kids allowed? / Çocuklar gelebilir mi?</summary>
+            <p>No, unless otherwise specified. Thank you for understanding — we’d love for everyone to relax and enjoy the evening.<br>
+            Aksi belirtilmedikçe hayır. Anlayışınız için teşekkür ederiz — herkesin rahatça eğlenmesini istiyoruz.</p>
           </details>
 
           <details class="faqItem">
-            <summary>Can I bring a gift?</summary>
-            <p>If you'd like to bring a gift, please bring cash as I'll be moving before the wedding to England, In'Sha'Allah. </p>
+            <summary>What gift can I bring? / Hediye olarak ne getirebilirim?</summary>
+            <p>Celebrating with you is truly enough for us. As I will soon be moving countries before our wedding, monetary gifts are the most practical and appreciated.<br>
+            Bizim için en büyük hediye sizinle birlikte kutlamak. Düğün öncesinde ülke değiştireceğimiz için nakit hediyeler bizim için en pratik ve uygun seçenek olacaktır.</p>
           </details>
 
           <details class="faqItem">
-            <summary>Will there be men?</summary>
-            <p>This is an all-girls celebration, except for a short traditional dance when the groom will join briefly.</p>
+            <summary>Will there be men? / Erkekler olacak mı?</summary>
+            <p>This is an all-girls celebration, except for a traditional dance when the groom will join briefly.<br>
+            Bu gece kadınlara özeldir, yalnızca bir geleneksel dans sırasında damat kısa süreliğine katılacaktır.</p>
           </details>
 
           <!-- Helpful additions -->
           <details class="faqItem">
-            <summary>What should I wear?</summary>
-            <p>Dress up if you’d like — think elegant, comfortable, and photo-friendly. If you have something in olive, gold, or warm neutrals, it’ll match the vibe beautifully. (Please bring cover up items for when the groom joins).</p>
+            <summary>What should I wear? / Ne giymeliyim?</summary>
+            <p>Dress up if you’d like — think elegant, comfortable, and photo-friendly. If you have something in olive, gold, or warm neutrals, it’ll match the vibe beautifully.<br>
+            Dilerseniz şık giyinebilirsiniz — zarif, rahat ve fotoğraflarda güzel duracak kıyafetler tercih edebilirsiniz. Zeytin yeşili, altın tonları veya sıcak nötr renkler temaya çok yakışacaktır.</p>
           </details>
 
           <details class="faqItem">
-            <summary>What time should I arrive?</summary>
-            <p>Please arrive at <strong>6:00 PM</strong> so you don’t miss the welcome and the start of the evening.</p>
+            <summary>What time should I arrive? / Saat kaçta gelmeliyim?</summary>
+            <p>Please arrive at <strong>6:00 PM</strong> so you don’t miss the welcome and the start of the evening.<br>
+            Karşılama ve gecenin başlangıcını kaçırmamak için lütfen <strong>18:00'de</strong> geliniz.</p>
           </details>
 
           <details class="faqItem">
-            <summary>Will there be food and drinks?</summary>
-            <p>Yes — we’ll have Turkish treats and refreshments. (If you have allergies, please note them in the RSVP.)</p>
+            <summary>Will there be food and drinks? / Yiyecek ve içecek olacak mı?</summary>
+            <p>Yes — we’ll have Turkish treats and refreshments. (If you have allergies, please note them in the RSVP.)<br>
+            Evet — Türk ikramları ve içecekler olacaktır. (Alerjiniz varsa lütfen RSVP kısmında belirtiniz.)</p>
           </details>
 
           <details class="faqItem">
-            <summary>Can I take photos and videos?</summary>
-            <p>Please do not take pictures of any person unless they have consented. Some girls will have their hijabs off, so please be mindful of others!</p>
+            <summary>Can I take photos and videos? / Fotoğraf ve video çekebilir miyim?</summary>
+            <p>Please do not take pictures of any person unless they have consented. Some guests may remove their hijabs, so please be considerate when taking photos.<br>
+            Lütfen izin almadan kimsenin fotoğrafını çekmeyiniz. Bazı misafirler başörtülerini çıkarabilir, lütfen fotoğraf çekerken dikkatli olunuz.</p>
           </details>
         </div>
       </div>
@@ -160,6 +168,11 @@
       <p>Made with love - Ceyda</p>
     </footer>
   </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 
   [// Envelope -> open -> fade gate -> reveal site
 const gate = document.getElementById("gate");
